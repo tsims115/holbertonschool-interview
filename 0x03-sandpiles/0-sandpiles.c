@@ -8,5 +8,6 @@
  */
 void sandpiles_sum(int grid1[3][3], int grid2[3][3])
 {
-    printf("Hello World");
+    printf("%d", *grid1);
+    printf("%d", *grid2);
 }
