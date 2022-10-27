@@ -12,7 +12,7 @@ int is_palindrome(unsigned long n)
 {
 	unsigned long test;
 	int size, i;
-	unsigned long array[20];
+	int array[20];
 
 	size = 0;
 	for (test = n; test >= 10; test /= 10)
