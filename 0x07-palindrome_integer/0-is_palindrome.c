@@ -22,7 +22,6 @@ int is_palindrome(unsigned long n)
 	for (test = n; i < size; test /= 10)
 	{
 		array[i] = test % 10;
-		printf("%lu ", array[i]);
 		i++;
 	}
 	printf("\n");
