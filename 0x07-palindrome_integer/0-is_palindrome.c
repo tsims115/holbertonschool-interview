@@ -24,6 +24,12 @@ int is_palindrome(unsigned long n)
 		array[i] = test % 10;
 		i++;
 	}
+	i = 0;
+	for (test = n; i < size / 2; test /= 10)
+	{
+		array[i] = test % 10;
+		i++;
+	}
 	
 	return (array[0]);
 }
