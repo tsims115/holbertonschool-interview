@@ -1,6 +1,18 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include "slide_line.h"
+void rvs(int *line, size_t size)
+{
+	int i, j, tmp;
+	j = (int)size - 1;
+	for (i = 0; i < (int)size / 2; i++)
+	{
+		tmp = line[i];
+		line[i] = line[j];
+		line[j] = tmp;
+		j--;
+	}
+}
 /**
  * @brief slide_line - slides and merges array of integers
  *
