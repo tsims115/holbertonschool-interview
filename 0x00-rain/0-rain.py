@@ -1,6 +1,8 @@
 #!/usr/bin/python3
+"""Rain Module"""
 
 def rain(walls):
+    """rain function"""
     last_wall = 0
     wall_spaces = 0
     total = 0
