@@ -1,3 +1,7 @@
+#!/usr/bin/python3
+"""
+0-island_permiter
+"""
 def island_perimeter(grid):
     """Island_permiter"""
     count = 0
