@@ -23,13 +23,15 @@ int main(int ac, char **av)
     }
 
     n = (unsigned long)(atol(av[1]));
-    printf("Hello %lu\n", n);
+    printf("\n");
+    printf("n on Windows: %lu\n", n);
     ret = is_palindrome(n);
 
     printf("%lu is ", n);
     if (ret == 0)
         printf("not ");
     printf("a palindrome.\n");
+    printf("\n");
 
     return (EXIT_SUCCESS);
 }
