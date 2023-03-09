@@ -12,4 +12,6 @@ def island_perimeter(grid):
                     count += 4
             if grid[i][j] == 1:
                 count += 2
+    if count == 0:
+        return count
     return count + 2
